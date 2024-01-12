@@ -24,6 +24,7 @@ nav{
     display: flex;
      justify-content: space-between; 
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
 
@@ -43,4 +44,15 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: rgb(16, 201, 201);
+}.bennar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.bennar .profile-pic{
+    width: 500px;
 }
